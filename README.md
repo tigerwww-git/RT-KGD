@@ -35,14 +35,12 @@ pytorch-transformers==1.2.0
 
   
 
-## Download Dataset
-
-- Download the data from https://github.com/thu-coai/KdConv
-- By default, we expect the data to be stored in `./data`.
+## Dataset
+Please download [KdConv](https://github.com/thu-coai/KdConv) dataset, and put it into `./data` folder
 
 
 
-## KGE Preparation
+## Preprocess
 
 - Clone the OpenKE-PyTorch branch:
 
@@ -64,7 +62,7 @@ pytorch-transformers==1.2.0
 
 
 
-## Train and inference
+## Training and inference
 
 - For training, run the following code:
 
