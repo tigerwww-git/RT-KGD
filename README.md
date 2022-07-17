@@ -1,10 +1,14 @@
 # RT-KGD
+This repository contains codes for our paper *A Relation Transition Aware Knowledge-Grounded Dialogue Generation* (ISWC 2022)
 
-A Relation Transition Aware Knowledge-Grounded Dialogue Generation implemented with PyTorch.
+<p align="center">
+    <br>
+    <img src="RT_KGD.png" width="900"/>
+    <br>
+</p>
 
 
-
-## File Introduction
+## Files
 
 - `./main.py` :  Our RT-KGD model.
 - `./metric`: Automatic metric functions.
@@ -31,14 +35,10 @@ pytorch-transformers==1.2.0
 
   
 
-## Download Dataset
+## Data
+Please download [KdConv](https://github.com/thu-coai/KdConv) dataset, and put it into `./data` folder
 
-- Download the data from https://github.com/thu-coai/KdConv
-- By default, we expect the data to be stored in `./data`.
-
-
-
-## KGE Preparation
+## Preprocess
 
 - Clone the OpenKE-PyTorch branch:
 
@@ -59,8 +59,7 @@ pytorch-transformers==1.2.0
 - Train TransR and get embedding file `OpenKE-Pytorch/embed.vec`. You can put it in the `./data/domian` directory.
 
 
-
-## Train and inference
+## Training and inference
 
 - For training, run the following code:
 
@@ -79,3 +78,15 @@ pytorch-transformers==1.2.0
   - Generated responses will be output to `./output`.
 
 - When modifying configration, follow the above two codes with `-- parameter_name your_parameter_value`.
+
+## Citation
+If you find this project is useful, please consider cite our paper:
+```
+@article{wang2022RTKGD,
+  title={RT-KGD: Relation Transition Aware Knowledge-Grounded Dialogue Generation},
+  author={Kexin Wang and Zhixu Li and Jiaan Wang and Jianfeng Qu and Ying He and An Liu and Lei Zhao},
+  journal={ISWC},
+  year={2022}
+}
+```
+
