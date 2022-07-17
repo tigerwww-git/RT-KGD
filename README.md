@@ -35,10 +35,8 @@ pytorch-transformers==1.2.0
 
   
 
-## Dataset
+## Data
 Please download [KdConv](https://github.com/thu-coai/KdConv) dataset, and put it into `./data` folder
-
-
 
 ## Preprocess
 
@@ -59,7 +57,6 @@ Please download [KdConv](https://github.com/thu-coai/KdConv) dataset, and put it
 - Refer to example to modify the code and save as `OpenKE-Pytorch/examples/train_transr_kdconv.py`
 
 - Train TransR and get embedding file `OpenKE-Pytorch/embed.vec`. You can put it in the `./data/domian` directory.
-
 
 
 ## Training and inference
