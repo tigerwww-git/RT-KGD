@@ -78,3 +78,15 @@ Please download [KdConv](https://github.com/thu-coai/KdConv) dataset, and put it
   - Generated responses will be output to `./output`.
 
 - When modifying configration, follow the above two codes with `-- parameter_name your_parameter_value`.
+
+## Citation
+If you find this project is useful, please consider cite our paper:
+```
+@article{wang2022RTKGD,
+  title={RT-KGD: Relation Transition Aware Knowledge-Grounded Dialogue Generation},
+  author={Kexin Wang and Zhixu Li and Jiaan Wang and Jianfeng Qu and Ying He and An Liu and Lei Zhao},
+  journal={ISWC},
+  year={2022}
+}
+```
+
