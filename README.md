@@ -1,6 +1,11 @@
 # RT-KGD
 This repository contains codes for our paper *A Relation Transition Aware Knowledge-Grounded Dialogue Generation* (ISWC 2022)
 
+<p align="center">
+    <br>
+    <img src=".RT_KGD.png" width="900"/>
+    <br>
+</p>
 
 
 ## Files
