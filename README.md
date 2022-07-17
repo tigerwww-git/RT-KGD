@@ -3,7 +3,7 @@ This repository contains codes for our paper *A Relation Transition Aware Knowle
 
 <p align="center">
     <br>
-    <img src=".RT_KGD.png" width="900"/>
+    <img src="RT_KGD.png" width="900"/>
     <br>
 </p>
 
