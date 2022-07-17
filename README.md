@@ -1,10 +1,9 @@
 # RT-KGD
-
-A Relation Transition Aware Knowledge-Grounded Dialogue Generation implemented with PyTorch.
-
+This repository contains codes for our paper *A Relation Transition Aware Knowledge-Grounded Dialogue Generation* (ISWC 2022)
 
 
-## File Introduction
+
+## Files
 
 - `./main.py` :  Our RT-KGD model.
 - `./metric`: Automatic metric functions.
