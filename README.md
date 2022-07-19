@@ -1,5 +1,5 @@
 # RT-KGD
-This repository contains codes for our paper *A Relation Transition Aware Knowledge-Grounded Dialogue Generation* (ISWC 2022)
+This repository contains codes for our paper *[A Relation Transition Aware Knowledge-Grounded Dialogue Generation](https://arxiv.org/abs/2207.08212)* (ISWC 2022)
 
 <p align="center">
     <br>
